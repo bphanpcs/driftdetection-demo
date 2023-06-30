@@ -34,6 +34,7 @@ resource "aws_security_group" "example" {
     git_org              = "bphanpcs"
     git_repo             = "driftdetection-demo"
     yor_trace            = "518ec5a6-c623-4572-9b26-bec1a1ed5a75"
+    user                 = "pchandaliya"
   }
 }
 
@@ -52,6 +53,7 @@ resource "aws_instance" "example" {
     git_org              = "bphanpcs"
     git_repo             = "driftdetection-demo"
     yor_trace            = "55af62c8-d9c5-4731-be46-a398012970c3"
+    user                 = "pchandaliya"
   }
 
   user_data = <<-EOF
